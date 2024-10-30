@@ -1,0 +1,113 @@
+.callcapHide { display:none; }
+
+.button a {
+	text-decoration:none;
+	color:#FFF
+}
+
+.webmatchContainer {
+	width:100%;
+	padding:20px 5px;
+}
+
+.webmatchContainer h1, .webmatchContainer h2, .webmatchContainer h3, .webmatchContainer h4 {
+	padding:0;
+	margin:0 0 5px 0;
+}
+
+.campaignListContainer {
+	background-color:#FFF;
+	padding:10px 20px;
+	margin-bottom:20px;
+	border:1px solid #DDD;
+	border-radius: 5px;
+}
+
+.newCampaign {
+	position:relative;
+	border-spacing:10px 5px;
+	border-collapse: separate;
+}
+
+.newCampaignRow {
+	display:block;
+	margin:10px 0;
+}
+
+.campaignListItem, .newCampaign {
+	display:table-cell;
+	position:relative;
+	background-color:#F1F1F1;
+	padding:10px 15px 40px 15px;
+	margin:0px 10px 10px 0px;
+	border:1px solid #DDD;
+	border-radius:5px;
+}
+
+.campaignListTitle {
+	margin-bottom:15px;
+}
+
+.newCampaignCell {
+	display:table-cell;
+	background-color:#FFF;
+	padding:5px 15px 15px;
+	margin:0px 10px 10px 0px;
+	border:1px solid #DDD;
+	border-radius:5px;
+	min-width:125px;
+}
+
+.newCampaignCell h4 {
+	margin:10px 0px 5px;
+}
+
+.newCampaignCell input[type=radio],
+.newCampaignCell input[type=checkbox] {
+	margin:0px 5px 5px 0px !important;
+}
+
+.newCampaignCell input, .newCampaignCell select {
+	margin-bottom: 5px !important;
+}
+
+.newCampaignCell label {
+	display:block;
+}
+
+.campaignListItem h4 {
+	font-size:1.2em;
+}
+
+.deleteExistingCampaignButton {
+	position:absolute;
+	right:5px;
+	bottom:5px;
+}
+
+.editExistingCampaignButton, .cancelButton {
+	position:absolute;
+	left:5px;
+	bottom:5px;
+}
+
+.removeCampaignButton {
+	position:absolute;
+	top:-10px;
+	right:-10px;
+}
+
+.helpText {
+	margin:-5px 0px 10px;
+	font-style:italic;
+	color:#888;
+}
+
+.newCampaignButton {
+	float:right;
+}
+
+.campaignSpacer {
+	display:table-cell;
+	width:15px;
+}
